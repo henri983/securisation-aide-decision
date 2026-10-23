@@ -1,0 +1,29 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environments
+.venv/
+venv/
+ENV/
+
+# Secrets & Environment
+.env
+*.pem
+*.key
+
+# Test & Coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Data temporary files
+*.parquet
+*.feather
+*.csv
+
+# IDE
+.idea/
+.vscode/
+*.swp
